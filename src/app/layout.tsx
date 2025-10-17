@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Child Therapy That Helps Kids Thrive | Your Practice Name",
   description:
-    "Warm, child-centered therapy for kids and families. Free 15-minute consult. In-person and online sessions.",
+    "Warm, child-centered therapy for kids and families. Free 15-minute consult. In-person and online sessions across our locations.",
 };
 
 export default function RootLayout({

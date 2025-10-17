@@ -9,6 +9,7 @@ export default function Home() {
             <a href="#services" className="hover:underline">Services</a>
             <a href="#approach" className="hover:underline">How it works</a>
             <a href="#about" className="hover:underline">About</a>
+            <a href="#locations" className="hover:underline">Locations</a>
             <a href="#contact" className="rounded-full bg-emerald-600 text-white px-4 py-2 hover:bg-emerald-700">Free consult</a>
           </div>
         </div>
@@ -149,6 +150,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Locations */}
+      <section id="locations" className="px-4 py-12 md:py-16">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-semibold">Our locations</h2>
+          <p className="mt-3 text-black/70 dark:text-white/80">In-person sessions by appointment. Telehealth available across [Your State].</p>
+          <div className="mt-6 grid md:grid-cols-3 gap-5">
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <h3 className="font-medium">Main Office — [Your City]</h3>
+              <p className="mt-2 text-sm text-black/70 dark:text-white/80">123 Oak Street, Suite 200<br/>[Your City], ST 00000</p>
+              <ul className="mt-3 text-sm text-black/60 dark:text-white/70 list-disc pl-5 space-y-1">
+                <li>Free street parking</li>
+                <li>Elevator and stroller-friendly access</li>
+                <li>Hours: Mon–Fri, 9am–6pm</li>
+              </ul>
+              <a
+                href="https://maps.google.com/?q=123+Oak+Street,+Your+City,+ST"
+                className="mt-4 inline-block rounded-full border border-black/[.08] dark:border-white/[.145] px-4 py-2 text-sm hover:bg-black/[.03] dark:hover:bg-white/[.06]"
+                target="_blank" rel="noopener noreferrer"
+              >
+                Get directions
+              </a>
+            </div>
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <h3 className="font-medium">North Side Office — [Nearby City]</h3>
+              <p className="mt-2 text-sm text-black/70 dark:text-white/80">456 Maple Avenue, Suite 3B<br/>[Nearby City], ST 00000</p>
+              <ul className="mt-3 text-sm text-black/60 dark:text-white/70 list-disc pl-5 space-y-1">
+                <li>Lot parking (validate at front desk)</li>
+                <li>Quiet waiting area</li>
+                <li>Hours: Tue & Thu, 10am–6pm</li>
+              </ul>
+              <a
+                href="https://maps.google.com/?q=456+Maple+Avenue,+Nearby+City,+ST"
+                className="mt-4 inline-block rounded-full border border-black/[.08] dark:border-white/[.145] px-4 py-2 text-sm hover:bg-black/[.03] dark:hover:bg-white/[.06]"
+                target="_blank" rel="noopener noreferrer"
+              >
+                Get directions
+              </a>
+            </div>
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <h3 className="font-medium">Telehealth</h3>
+              <p className="mt-2 text-sm text-black/70 dark:text-white/80">Secure online sessions for families across [Your State].</p>
+              <ul className="mt-3 text-sm text-black/60 dark:text-white/70 list-disc pl-5 space-y-1">
+                <li>Simple video link, no downloads</li>
+                <li>After-school and evening options</li>
+              </ul>
+              <a
+                href="#contact"
+                className="mt-4 inline-block rounded-full bg-emerald-600 text-white px-4 py-2 text-sm hover:bg-emerald-700"
+              >
+                Request a telehealth appointment
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="px-4 py-12 md:py-16">
         <div className="max-w-6xl mx-auto">
@@ -215,6 +272,7 @@ export default function Home() {
           <div className="flex gap-4">
             <a href="#services" className="hover:underline">Services</a>
             <a href="#about" className="hover:underline">About</a>
+            <a href="#locations" className="hover:underline">Locations</a>
             <a href="#contact" className="hover:underline">Contact</a>
           </div>
         </div>
