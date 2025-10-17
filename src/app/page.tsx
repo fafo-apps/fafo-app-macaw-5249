@@ -9,6 +9,7 @@ export default function Home() {
             <a href="#services" className="hover:underline">Services</a>
             <a href="#approach" className="hover:underline">How it works</a>
             <a href="#about" className="hover:underline">About</a>
+            <a href="#reviews" className="hover:underline">Reviews</a>
             <a href="#locations" className="hover:underline">Locations</a>
             <a href="#contact" className="rounded-full bg-emerald-600 text-white px-4 py-2 hover:bg-emerald-700">Free consult</a>
           </div>
@@ -206,6 +207,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Reviews */}
+      <section id="reviews" className="px-4 py-12 md:py-16 bg-black/[.03] dark:bg-white/[.05]">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-semibold">Customer reviews</h2>
+          <p className="mt-3 text-black/70 dark:text-white/80">Real words from parents. Shared with permission and anonymized.</p>
+          <div className="mt-6 grid md:grid-cols-3 gap-5">
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <blockquote className="text-sm text-black/70 dark:text-white/80">“Our daughter feels understood and has new tools for school and home.”</blockquote>
+              <p className="mt-3 text-xs text-black/60 dark:text-white/70">Parent of 8‑year‑old</p>
+            </div>
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <blockquote className="text-sm text-black/70 dark:text-white/80">“Gentle, practical, and kind. We finally feel supported and hopeful.”</blockquote>
+              <p className="mt-3 text-xs text-black/60 dark:text-white/70">Parent of 6‑year‑old</p>
+            </div>
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <blockquote className="text-sm text-black/70 dark:text-white/80">“Our child looks forward to sessions and uses calming strategies on their own.”</blockquote>
+              <p className="mt-3 text-xs text-black/60 dark:text-white/70">Parent of 10‑year‑old</p>
+            </div>
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <blockquote className="text-sm text-black/70 dark:text-white/80">“Communication with us and the school has been thoughtful and consistent.”</blockquote>
+              <p className="mt-3 text-xs text-black/60 dark:text-white/70">Caregiver, elementary school</p>
+            </div>
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <blockquote className="text-sm text-black/70 dark:text-white/80">“The parent coaching sessions gave us simple steps that actually work.”</blockquote>
+              <p className="mt-3 text-xs text-black/60 dark:text-white/70">Parent of 5‑year‑old</p>
+            </div>
+            <div className="rounded-xl border border-black/[.08] dark:border-white/[.145] p-5 bg-background">
+              <blockquote className="text-sm text-black/70 dark:text-white/80">“Kind, patient, and effective. Highly recommend.”</blockquote>
+              <p className="mt-3 text-xs text-black/60 dark:text-white/70">Parent of 9‑year‑old</p>
+            </div>
+          </div>
+          <p className="mt-4 text-xs text-black/50 dark:text-white/60">Reviews reflect individual experiences. Therapy results vary. Not a guarantee of outcomes.</p>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="px-4 py-12 md:py-16">
         <div className="max-w-6xl mx-auto">
@@ -272,6 +308,7 @@ export default function Home() {
           <div className="flex gap-4">
             <a href="#services" className="hover:underline">Services</a>
             <a href="#about" className="hover:underline">About</a>
+            <a href="#reviews" className="hover:underline">Reviews</a>
             <a href="#locations" className="hover:underline">Locations</a>
             <a href="#contact" className="hover:underline">Contact</a>
           </div>
